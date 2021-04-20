@@ -1,0 +1,32 @@
+#include  <stdio.h>
+int  main ()
+{ 
+    int marks ;
+        printf("enter the marks:");
+       scanf("%d" ,&marks);
+    if (marks>=85)
+    {
+    printf("garde a");
+    
+    }
+     else if (marks>=70)
+    {
+    printf ("garde b");
+    
+    }
+   else if ( marks>=55)
+    {
+    printf("garde c");
+    
+    }
+    else if (marks>=40)
+    {
+    printf("grade d");
+    
+    }
+      else
+    {
+    printf ("garde f");
+    }
+    return 0 ;
+}
